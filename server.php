@@ -32,18 +32,19 @@ if($page == 'addsuckertowaitlist') {
 } else if($page == 'viewsuckerwaitinglist') {
   $sql = "SELECT * from waitinglist";
   foreach ($conn->query($sql) as $row) {
-        // ?>  <tr>
-        //     <td><?php echo $row['id'] ?></td>;
-        //     <td><?php echo $row['email'] ?></td>;
-        //     <td><?php echo $row['name'] ?></td>;
-        //   </tr> <?php>
         print $row['id'] . "\t";
         print $row['email'] . "\t";
         print $row['name'] . "\n";
-      }
+  }
+} else if($page == 'retrievesuckercount') {
+  $sql = "SELECT * FROM waitinglist";
+  if ($conn->query($sql) > 0) {
+    echo 1;
+  } else {
+    echo 0;
+  }
 } else {
   echo "Something bad happened";
-
 }
 
 $conn->close();

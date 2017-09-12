@@ -26,14 +26,14 @@ function retrieveFormattedWaitlistList(){
 
 // Retrieves data entry from backend system for displaying Wait List
 function retrieveSuckerCountOnWaitList(){
-  $.ajax({
+  var data = $.ajax({
     type: "GET",
     url: "http://localhost/server.php?p=retrievesuckercount",
     async: false,
     success: function(data) {
-      console.log(data);
       return data;
     },
   });
-  return 1;
+  console.log(data);
+  return data.responseText;
 }

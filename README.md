@@ -1,12 +1,8 @@
-# [Start Bootstrap - Landing Page](https://startbootstrap.com/template-overviews/landing-page/)
+## Overview
 
-[Landing Page](http://startbootstrap.com/template-overviews/landing-page/) is a multipurpose landing page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
+This project was put together by Chris Lowe to support a presentation to CodeUp students on the topic of Software Quality Assurance. The website and code is a mix of code written by Chris and open source projects as well as multiple tutorials on various pieces of functionality. All rights reserved by respective owners.
 
-## Preview
-
-[![Landing Page Preview](https://startbootstrap.com/assets/img/templates/landing-page.jpg)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
-
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-landing-page/)**
+Little support should be expected going forward. Also, please don't modify this code to profit from it - for educational purposes only.
 
 ## Status
 
@@ -16,15 +12,9 @@
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page)
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page?type=dev)
 
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/landing-page/)
-* Install via npm: `npm i startbootstrap-landing-page`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-landing-page.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-landing-page)
-
 ## Usage
+
+Here are a couple ways you can modify this project:
 
 ### Basic Usage
 
@@ -51,12 +41,7 @@ Start Bootstrap is an open source library of free Bootstrap templates and themes
 
 Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
 ## Copyright and License
+Copyright 2017 Chris Lowe.
 
 Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/gh-pages/LICENSE) license.
